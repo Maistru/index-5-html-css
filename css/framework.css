@@ -1,0 +1,341 @@
+/* Start box*/
+.d-flex
+{
+    display: flex;
+}
+/*End box*/
+.align-center{
+    align-items: center;
+}
+.fs-21{
+    font-size: 21px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0px;
+}
+.bg-color{
+    background-color: #1B2028;
+}
+.c-black{
+    color: black;
+}
+.p-relative {
+    position: relative;
+}
+.p-fixed {
+    position: fixed;
+}
+.txt-c{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.red-6{
+    border-radius: 6px;
+}
+.red-10{
+    border-radius: 10px;
+}
+/* .d-grid{
+    display: grid;
+} */
+.gap-20{
+    gap: 20px;
+}
+@media (max-width: 767px){
+    .hide-mobile{
+        display: none;
+    }
+    .content {
+        padding-inline-start: 62px;
+    }
+}
+.mt-400{
+    margin-top:  370px;
+}
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-white{
+    color: white;
+}
+.i-search{
+    position: absolute;
+    right: 30px;
+    transform: translateY(40%)
+}
+h5{
+    font-size: 14px;
+    color: aliceblue;
+    padding: 10px;
+}
+.bell{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    background-color: #1B2028;
+    border-radius: 8px;
+}
+span i{
+    align-items: center;
+    margin-top: 21px;
+}
+.img-user {
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.welcome{
+    flex-grow: 1;
+    width: 258px;
+    height: 178px;
+    background-color: #1B2028;
+    margin-bottom: 5px;
+}
+.icon-btc{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px;
+}
+.title{
+    color: white;
+}
+.par{
+    color: rgb(148, 147, 147);
+    font-size: 12px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.title-price{
+    color: white;
+    font-size: 21px;
+}
+.perectage{
+    color: #1ECB4F;
+    font-size: 14px;
+    padding: 0 24px;
+}
+.perectage-solana{
+    color: #F46D22;
+    font-size: 14px;
+    padding: 0 24px;
+}
+.master-card{
+   display: flex;
+   margin-left: 30px;
+}
+.card{
+    width: 355px;
+    height: 180px;
+    background-color: #3A6FF8;
+    border-radius: 20px;
+    color: white;
+}
+.title-credit{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.title-nomber{
+    margin: 13px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.viza{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.my-portfolio{
+    width: 360px;
+    height: 434px;
+    margin: 26px 0;
+    background-color: #1B2028;
+    border-radius: 15px;
+    padding: 10px;
+}
+.chart-live{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+}
+.chart{
+    height: 441px;
+    background-color: #1B2028;
+    border-radius: 20px;
+    margin: 0px 30px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+.content-chart{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.title-btc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #E4E4E4;
+}
+.nomber{
+    font-size: 18px;
+    margin: 0 25px;
+}
+.amount{
+    display: flex;
+    margin: 30px;
+}
+.amount-nomber{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: normal;
+    color: #9E9E9E;
+    margin-bottom: 35px;
+}
+.graphs{
+    margin-left: 20px;
+}
+.months{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: normal;
+    color: #9E9E9E;
+    padding: 8px;
+}
+.title-profolio{
+    font-size: 21px;
+    margin: 24px;
+}
+.icon-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 5px 0;
+    align-content: center;
+}
+.txt-icon-1{
+    margin-right: 80px;
+}
+.txt-icon-4{
+    margin-right: 45px;
+}
+#ethereum{
+    font-size: 16px;
+}
+#nom-eth{
+    font-size: 14px;
+    color: #a7a5a5;
+}
+#nom-eth33{
+    font-size: 14px;
+    color: #1ECB4F;
+    margin-left: 20px;
+}
+#nom-eth44{
+    font-size: 14px;
+    color: #1ECB4F;
+    margin-left: 25px;
+}
+.txt-icon-2{
+    align-content: center;
+}
+#nom-eth2{
+    float: right;
+    font-size: 12px;
+    color: #F46D22;
+}
+#nom-eth3{
+    font-size: 14px;
+}
+.select-chart{
+    display: flex;
+}
+#img-chart1{
+    padding-right: 14px;
+}
+.live-market{
+    width: 100%;
+    height: 173px;
+    display: grid;
+    background-color: #1B2028;
+    border-radius: 15px;
+    padding: 0 30px;
+    margin: 30px;
+    color: #9E9E9E;
+}
+.title-market{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 21px;
+}
+.view-more{
+    width: 73px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #31353F;
+    font-size: 10px;
+    align-content: center;
+    text-align: center;   
+}
+.row-market{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 100px;
+}
+.row-markets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.photo-bit{
+    display: flex;
+    align-items: center;
+}
+.txt-more{
+    display: flex;
+}
+#txt-bitcoin{
+    margin-left: 10px;
+}
+#txt-1{
+    margin-right: 195px;
+    color: #1ECB4F;
+}
+#txt-2{
+    margin-right: 220px;
+}
+#txt-3{
+   margin-right: 218px;
+}
+#txt-4{
+  display: flex;
+  gap: 33px;
+}
